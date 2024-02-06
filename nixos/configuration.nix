@@ -25,7 +25,7 @@
       efi.canTouchEfiVariables = true;
     };
     initrd = {
-      kernelModules = [ "nvidia" ];
+      kernelModules = [ "nvidia" "joydev" "xpad" ];
     };
     kernelPackages = pkgs.linuxPackages_latest;
   };

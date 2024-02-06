@@ -37,6 +37,7 @@ environment.systemPackages = with pkgs; [
     go
     docker-compose
     neovim
+    sublime
 
     # misc 
     neofetch
